@@ -12,9 +12,6 @@ public class ServeurChat {
     private List<Conversation>  clientsConnectes = new ArrayList<>();
 
 
-
-
-
     public void run() {
         try {
             ServerSocket ss = new ServerSocket(234);
